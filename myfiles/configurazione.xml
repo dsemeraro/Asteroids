@@ -1,0 +1,20 @@
+<asteroids.ParametriConfigurazione>
+  <fontFamily>Arial</fontFamily>
+  <fontSize>26</fontSize>
+  <altezzaFinestra>600</altezzaFinestra>
+  <larghezzaFinestra>800</larghezzaFinestra>
+  <coloreSfondo>
+    <red>0.4392157</red>
+    <green>0.5019608</green>
+    <blue>0.5647059</blue>
+    <opacity>1.0</opacity>
+  </coloreSfondo>
+  <numeroRigheClassifica>10</numeroRigheClassifica>
+  <numeroGiorniClassifica>10</numeroGiorniClassifica>
+  <indirizzoIPClient>localhost</indirizzoIPClient>
+  <indirizzoIPServer>localhost</indirizzoIPServer>
+  <portaServer>8080</portaServer>
+  <usernameDB>root</usernameDB>
+  <passwordDB></passwordDB>
+  <pathFileCache>./myfiles/cache.bin</pathFileCache>
+</asteroids.ParametriConfigurazione>

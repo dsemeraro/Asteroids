@@ -1,0 +1,33 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<!-- configurazione.xsd -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="asteroids.ParametriConfigurazione">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="fontFamily"/>
+        <xs:element type="xs:int" name="fontSize"/>
+        <xs:element type="xs:int" name="altezzaFinestra"/>
+        <xs:element type="xs:int" name="larghezzaFinestra"/>
+        <xs:element name="coloreSfondo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:double" name="red"/>
+              <xs:element type="xs:double" name="green"/>
+              <xs:element type="xs:double" name="blue"/>
+              <xs:element type="xs:double" name="opacity"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:int" name="numeroRigheClassifica"/>
+        <xs:element type="xs:int" name="numeroGiorniClassifica"/>
+        <xs:element type="xs:string" name="indirizzoIPClient"/>
+        <xs:element type="xs:string" name="indirizzoIPServer"/>
+        <xs:element type="xs:int" name="portaServer"/>
+        <xs:element type="xs:string" name="usernameDB"/>
+        <xs:element type="xs:string" name="passwordDB"/>
+        <xs:element type="xs:string" name="pathFileCache"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
